@@ -1,0 +1,1785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016B2285B482ABB510D977B8B77C8ACD /* MoaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5284D7B534DD1EE825E214470B789 /* MoaError.swift */; };
+		0574C3A8610ED87352F345568A491CCE /* MoaSettingsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4C82A78AF585B49F2D28115E88FD63 /* MoaSettingsCache.swift */; };
+		069B6ECF246B1B710B460777335838E2 /* AutoCancellingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EF63229E95EA49786828D5AAE6C8CB /* AutoCancellingTimer.swift */; };
+		06DC4EE0AB5C7F6D393E5A4911861305 /* Pods-FloodExplorerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAC85ECFE2FFBF7B939EC307CE56EF1 /* Pods-FloodExplorerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0934BCAE0A9931F02A14AECB7C60A7EC /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF904452A74224C1190EA209D4FF7D7 /* ButtonBarPagerTabStripViewController.swift */; };
+		0A8596460AADCC27B2BB671B7D11C50B /* Pods-FloodExplorer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C761F8E31A8DA935B51992F1D61C45 /* Pods-FloodExplorer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BD90B3519864CC1528827B9BBD192B9 /* MoaSimulatedImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A08EDBDFF021765F21EA1B9A28F0E0C /* MoaSimulatedImageDownloader.swift */; };
+		175E54AC52903B08232C089EE3DA3C44 /* AukPageVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6849F857CF3D8B3FCEB54932EB34E19 /* AukPageVisibility.swift */; };
+		18B65A8C875558134D503B1A95AB6322 /* AZDropdownMenuConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4DEF64390F496154216AB526C11AD /* AZDropdownMenuConfig.swift */; };
+		19621C36FD2907EBB7BED7A48C1923DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037466CBCEAB539112765747196024 /* Foundation.framework */; };
+		1BA0C33E36AF40A934164B6B0E7888AF /* MoaLoggerCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5571F79E4340642029578B7C20E251 /* MoaLoggerCallback.swift */; };
+		1D673463A985686A447362511BA5ABB4 /* AZDropdownMenuDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F586FC14086A08B250F33FF5633A27 /* AZDropdownMenuDefaultCell.swift */; };
+		202BC63ACF5AD66FB9BDF7FA7D0FB44E /* AukScrollViewContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E797B276391A8C4CD90F7E385C8DE /* AukScrollViewContent.swift */; };
+		20F9F238CBD6A7BAB2F060285ECB44BB /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81096CFE70A41CB3E21449D535C532B0 /* BaseButtonBarPagerTabStripViewController.swift */; };
+		239D86B18C65F0DE9C8BB309938ED1BC /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEE1B2758574827DD182BE12CF887B6 /* XLPagerTabStrip-dummy.m */; };
+		263A76599DCD536938BA1FF76F39CAD3 /* MoaSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84B9BF14123CF205435AE498C32457 /* MoaSimulator.swift */; };
+		265D25E1BF582E772C45538ED8FF2E76 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = FE95D44A5B7F8C57533E60A3831D0AB4 /* ButtonCell.xib */; };
+		2CD44C46EF7BE53E026C336068422F29 /* Auk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79572CF2016FCB20BFC036D26F6E4FEA /* Auk-dummy.m */; };
+		2DF2832ABDF86E3EBFDA5DC600B73EDD /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627FB3FF9434C7DD8B2999F0B51D3036 /* PagerTabStripBehaviour.swift */; };
+		3443EDF265BE208EEA36E3C8FC1635CB /* Pods-FloodExplorerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B11C36A47C191F9FBE07110BC2ABF5 /* Pods-FloodExplorerUITests-dummy.m */; };
+		38911A16CF06B5D7202FEE55AEEB763D /* Pods-FloodExplorer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E99CE240B5C16AB77372EC2417A8FCDC /* Pods-FloodExplorer-dummy.m */; };
+		45F8324701DF28695E73B51C603EC8C3 /* MoaHttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329D3A8F691252E7D52B3EF83550412 /* MoaHttp.swift */; };
+		46A3F2144C9ED5D5521A8450D008BCAB /* MoaHttpSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFF4D0D2543270C07EFC305A1F45BD9 /* MoaHttpSession.swift */; };
+		48168278278387C430FEE40E91BDE5A1 /* Auk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3EFDAE6B59529E10EF326F43865DDE /* Auk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B986BBAEDC9FC214691A0A636D6AFD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037466CBCEAB539112765747196024 /* Foundation.framework */; };
+		4C2B7867E6398FC7A627CC9C98653A3F /* AZDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39EF71A83F26262468529E232A7D2F1 /* AZDropdownMenu.swift */; };
+		4CC3093EC174BABA66C8D44F61B9EFE0 /* AukPageIndicatorContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB34F2BA67C58D6C3DAD21156E31D6C1 /* AukPageIndicatorContainer.swift */; };
+		502F0A81671E6E51AC0B3E97D050373C /* MoaLogType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B6A95E3395DD3A81D56394EDADBC1 /* MoaLogType.swift */; };
+		551925015C793AB11E1690F5E24787BE /* AukPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF3C8767BE25FA037DF814AC67112F /* AukPage.swift */; };
+		59928EFDB71CD303BAD1AC420B40F3D4 /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B1F202CFAC685625F52CAAB06413BC6 /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B7C1BE86B0FE3E70A72471D8ECA1B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037466CBCEAB539112765747196024 /* Foundation.framework */; };
+		5BE8EE1EE47C516E081EABBE707A2D66 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59708A4E990E6A01D685B4364A5210B5 /* PagerTabStripViewController.swift */; };
+		5C900E884443318394B9AEAF3B5A9CAF /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D64F263D80CCFBB0E3E19D21A8DD98 /* BarView.swift */; };
+		5CB0662C59E0DFAD96E4696C95A7DC22 /* moa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEFD5D03FFF9E586BC42C3A9585E3E6 /* moa-dummy.m */; };
+		60C7A7D3061653368C2D77F41CD62C59 /* AZDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D82DEAEBD375F9D38F0BDE66EA6580 /* AZDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61A57444A15ABAC54615D40FF1F5B768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037466CBCEAB539112765747196024 /* Foundation.framework */; };
+		666365F30DA91B3DD3D44B1E188C0980 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BDFEEC79C755E84777C3B9CD376D2 /* PagerTabStripError.swift */; };
+		682784EF23D932C8334E4E5DBCBC06A8 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 373266E43C749F24286E1CA755007D02 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B526C3D8C2FCF43A106CCED2781A6B4 /* AukAutoscroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEEA1B8C8435AFD3C1EE2668444C043 /* AukAutoscroll.swift */; };
+		6BB64CBDEFAC780319345B345C7D3272 /* AukRemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8FCFD5ED318B9C4771A4D4EBCB08DE /* AukRemoteImage.swift */; };
+		715F1B58DCE6604D04C754F1ABD067DF /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8BDB9FD77714B512EE4977DC684EDE /* SegmentedPagerTabStripViewController.swift */; };
+		7672343660D30345F493761FD7969FB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037466CBCEAB539112765747196024 /* Foundation.framework */; };
+		78D35F34CE6D866C5F7F79D791C90518 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CD727BD08F58407D2FC6A2CC57A057F /* SwipeDirection.swift */; };
+		795CED4D22BF5524C83716EE49C5AA48 /* iiAutolayoutConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE9987F32F8CE1BB2CFBCB4F09FCCF /* iiAutolayoutConstraints.swift */; };
+		80416B866F1B5E9E0CB258A426DC4531 /* MoaString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C98451F9420A34A81A523C27DD86D0 /* MoaString.swift */; };
+		82B317529F3071599ABA7D40D0E033AA /* AukSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD082959C85E2F87B9F826EF1F64C953 /* AukSettings.swift */; };
+		85B3A3C44717269AD6F0EC20A4682E36 /* RightToLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7C4A43353671A4C30D90BD67B8FD3A /* RightToLeft.swift */; };
+		8651B36C8CEA02C87E5ADB6527CFF6DC /* Moa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729951B9B58B1C6BCB37F67F668AE989 /* Moa.swift */; };
+		8AD91560B81B37F3E38980405F56F7E5 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858F991D40604B603F69E314EAF7010 /* FXPageControl.m */; };
+		8BFE862BF9B202574B5592CE94D4114D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037466CBCEAB539112765747196024 /* Foundation.framework */; };
+		8CD9ADE006CA83465345059BE0FDD746 /* AZDropdownMenuBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1C460B2C5F093C3CF62C2DA02C99C0 /* AZDropdownMenuBaseCell.swift */; };
+		8E9C1ABB5C2DA11D0183F684123C3DFA /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B386EC97FAA9C6615A0AFB0651401172 /* BarPagerTabStripViewController.swift */; };
+		9066E8A96A5F394E13263E35D7E71682 /* MoaConsoleLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD0897B1387E07DFD885298E9A6D2E /* MoaConsoleLogger.swift */; };
+		972E1F4EF9E72DBBBF8B472BF3CBBA6C /* MoaHttpImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A09C93072E7BEE94B39B979ADADB0 /* MoaHttpImageDownloader.swift */; };
+		9B22D00D434AB30514E9E25281675A78 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE95D44A5B7F8C57533E60A3831D0AB4 /* ButtonCell.xib */; };
+		9B3ACFFEBDF6E81003F3A497514CEDA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04037466CBCEAB539112765747196024 /* Foundation.framework */; };
+		9FAD0169B7AE5C0F9436CBC515360850 /* AZDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B4DDBAAC4A91202CDD994CC61115F8 /* AZDropdownMenu-dummy.m */; };
+		A5B331C0F2216C1B5392517C024248D7 /* UIScrollView+Auk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE954C9759FD4138C0131891428EDB3 /* UIScrollView+Auk.swift */; };
+		A6AA17292351463ED328FABD995BD1AC /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5EE5D368EAAEB46BE32F302CC8F2D /* IndicatorInfo.swift */; };
+		A9C5C20E502B8FB004054BB89ACF0C3B /* AukScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449E317066B40603B6C775CB9728E85 /* AukScrollViewDelegate.swift */; };
+		B864043E075D2B191F2AF12170DAE35C /* iiAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C897158C0B0DEF711DAAECE047B6DE1 /* iiAnimator.swift */; };
+		BE71C42F9EB42FD55384FA5E2263A8A6 /* MoaLoggerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5532AC94AA7AB46DEDDDEDD85F6FDE /* MoaLoggerText.swift */; };
+		BEC5D0AA48D3886B9DB3685E5AF2B8C8 /* Auk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C314A15E09D42C9FE0B88F1529934 /* Auk.swift */; };
+		C6512F6D54C5A2C3B432123306B39D4B /* MoaTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64A7E505B58841B0D2D4AC5882762BE /* MoaTime.swift */; };
+		CABC1DA3B04B6D1ED6CF9B2C359B2FB3 /* ImageView+moa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE4226CB987075C2F07711B6B9FF13 /* ImageView+moa.swift */; };
+		CF073F64E79C82B4C5022A468A05708B /* MoaHttpImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6AE0C8A667E257E8DD74240ADE67EF /* MoaHttpImage.swift */; };
+		D0A3C69910AFADDE5E885D1CAA391E9E /* moa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9C6B2D9D53EA390D0B5738329F9C54 /* moa.framework */; };
+		D0DEEE15F4977D1D987A3A8FE684F532 /* Pods-FloodExplorerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1936CBF85A58CFB07F168C9DB88E5F2 /* Pods-FloodExplorerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D47D9709045D349269715B62F35074C0 /* MoaImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692636991E446FCA17A571CD6503FF90 /* MoaImageDownloader.swift */; };
+		DD66FD147B2EC5F5F2B4A1E644DC54B9 /* moa-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D6BA558465DBB2E7EECC0195BC0B60 /* moa-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2905598AA172C6C3988771E55B61190 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4499D58E1B93BD192EF6FB501C6657 /* TwitterPagerTabStripViewController.swift */; };
+		EBE962FACA9D7BFDA6ED03F8E747D23A /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC41FF49DC9B6B5AB09FE13134B9D21 /* ButtonBarViewCell.swift */; };
+		F0E7BD3AAAB129599972507007B8F485 /* iiQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979E5910756839ECC45A242FEA4CDF61 /* iiQ.swift */; };
+		F2137ACF86D032A996B98516633E99B0 /* AukScrollTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE3D97C6DB9C6A5D984A8897AB37D2 /* AukScrollTo.swift */; };
+		F4BDCA688CBD7C951043382EE6849C23 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC2D39C9F2FD27CC1FF562D0AD0AAD /* ButtonBarView.swift */; };
+		F5B75AF02A8782D4A28F38DC15453191 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7426F821642B246AD3A7494678F01515 /* UIKit.framework */; };
+		F7F8E18B2C59831C6513AF15F2B2FA73 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */; };
+		F88C252DB8862FE3F505FC4DFBB278B6 /* MoaSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D6A690C753A7BD40815B7C2824B1A /* MoaSettings.swift */; };
+		F9C246B2FC0B311E8B3BF785D7180B7C /* Pods-FloodExplorerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D951A5D057F1D1A4CB1A89331A065CD /* Pods-FloodExplorerTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15ABC5DF41F1220FE5610D67C72AD102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6DEFA22CCEEB5F1F1D43D157996301F;
+			remoteInfo = Auk;
+		};
+		3A413D4F429E7C6B94852757DCE69C33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14465FC28324FBB065DDCCBD77FA238C;
+			remoteInfo = moa;
+		};
+		3F00F8A7506F1C8B8DAD0165ED211EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BA6525597C1B817693051CCA494E16A;
+			remoteInfo = AZDropdownMenu;
+		};
+		5DE871773A1D84927DAAF46CBF9C1831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678FFE1AE22A155AC8D1CB338B10DDBF;
+			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
+		};
+		918F6C023FE46BA6268C2D52C8CBA067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 993AF34958BF25A68AD8F7D91645DA95;
+			remoteInfo = XLPagerTabStrip;
+		};
+		F68BB892AE742BBF391A7660F61FC503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14465FC28324FBB065DDCCBD77FA238C;
+			remoteInfo = moa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006BDFEEC79C755E84777C3B9CD376D2 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
+		04037466CBCEAB539112765747196024 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		094B6A95E3395DD3A81D56394EDADBC1 /* MoaLogType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaLogType.swift; path = Moa/Logger/MoaLogType.swift; sourceTree = "<group>"; };
+		09B4DDBAAC4A91202CDD994CC61115F8 /* AZDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AZDropdownMenu-dummy.m"; sourceTree = "<group>"; };
+		0BFF4D0D2543270C07EFC305A1F45BD9 /* MoaHttpSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaHttpSession.swift; path = Moa/Http/MoaHttpSession.swift; sourceTree = "<group>"; };
+		0D3EFDAE6B59529E10EF326F43865DDE /* Auk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auk-umbrella.h"; sourceTree = "<group>"; };
+		16DE4226CB987075C2F07711B6B9FF13 /* ImageView+moa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+moa.swift"; path = "Moa/ImageView+moa.swift"; sourceTree = "<group>"; };
+		1A1C460B2C5F093C3CF62C2DA02C99C0 /* AZDropdownMenuBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuBaseCell.swift; path = Pod/Classes/AZDropdownMenuBaseCell.swift; sourceTree = "<group>"; };
+		1A71D9014DB9DE5D3FC8BC23BF4CB714 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC41FF49DC9B6B5AB09FE13134B9D21 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
+		25D6BA558465DBB2E7EECC0195BC0B60 /* moa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "moa-umbrella.h"; sourceTree = "<group>"; };
+		261DC0D1C7668DA3E749C3DDAF60380A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A08EDBDFF021765F21EA1B9A28F0E0C /* MoaSimulatedImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSimulatedImageDownloader.swift; path = Moa/Simulator/MoaSimulatedImageDownloader.swift; sourceTree = "<group>"; };
+		2B37555BDD4E7D668A5020000B4CD1CC /* Pods_FloodExplorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAF3C8767BE25FA037DF814AC67112F /* AukPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukPage.swift; path = Auk/AukPage.swift; sourceTree = "<group>"; };
+		2C4C0BF90DE2004A9A58EB8CC56D2B4E /* moa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = moa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C56559B847BC591A86D58EB6A5F87CC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		2C897158C0B0DEF711DAAECE047B6DE1 /* iiAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iiAnimator.swift; path = Auk/Utils/iiAnimator.swift; sourceTree = "<group>"; };
+		2C9C314A15E09D42C9FE0B88F1529934 /* Auk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auk.swift; path = Auk/Auk.swift; sourceTree = "<group>"; };
+		2DECE14B54222F7416BD469043096B05 /* Pods-FloodExplorerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ECD0897B1387E07DFD885298E9A6D2E /* MoaConsoleLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaConsoleLogger.swift; path = Moa/Logger/MoaConsoleLogger.swift; sourceTree = "<group>"; };
+		2EEE1B2758574827DD182BE12CF887B6 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
+		2F73F60FDC5D5E8120FB36A83F965E89 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2F9F1CBBDD7546764DF8B8B23FF5FD41 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
+		30F59E297114AB043BB391A7A9B8ACDC /* Auk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Auk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3245AB91FA754597A9B1E3750040C5CB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		3329D3A8F691252E7D52B3EF83550412 /* MoaHttp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaHttp.swift; path = Moa/Http/MoaHttp.swift; sourceTree = "<group>"; };
+		33B3E980616981EBB2EFDB30512A0341 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		35D64F263D80CCFBB0E3E19D21A8DD98 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
+		36D798E2477A8C7399856E9EDDB5B95A /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		373266E43C749F24286E1CA755007D02 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		38C5EE5D368EAAEB46BE32F302CC8F2D /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
+		39D844B0CA3F760364EF81A8CBAF4A0A /* Pods-FloodExplorerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3C9C6B2D9D53EA390D0B5738329F9C54 /* moa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = moa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FC9A821EA7FD7EDAF88AC0B0B62E2F /* Pods_FloodExplorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C761F8E31A8DA935B51992F1D61C45 /* Pods-FloodExplorer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloodExplorer-umbrella.h"; sourceTree = "<group>"; };
+		45B11C36A47C191F9FBE07110BC2ABF5 /* Pods-FloodExplorerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloodExplorerUITests-dummy.m"; sourceTree = "<group>"; };
+		4AB7C5C76827AE24F01BC5897CC8F6A7 /* Auk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Auk.modulemap; sourceTree = "<group>"; };
+		4C37F8F7BE611010088ADFA077D99B54 /* moa-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "moa-prefix.pch"; sourceTree = "<group>"; };
+		4E4CDB98577224EB7FDFC53EBED5B6C8 /* Auk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auk-prefix.pch"; sourceTree = "<group>"; };
+		53596759FA28C4906775FBA7218762A8 /* Pods-FloodExplorerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FloodExplorerTests.modulemap"; sourceTree = "<group>"; };
+		57C98451F9420A34A81A523C27DD86D0 /* MoaString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaString.swift; path = Moa/Utils/MoaString.swift; sourceTree = "<group>"; };
+		5858F991D40604B603F69E314EAF7010 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
+		59708A4E990E6A01D685B4364A5210B5 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
+		5A7E797B276391A8C4CD90F7E385C8DE /* AukScrollViewContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukScrollViewContent.swift; path = Auk/AukScrollViewContent.swift; sourceTree = "<group>"; };
+		5C307D528E8526C0B95493C44EC6E19F /* Pods-FloodExplorerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FloodExplorerUITests.modulemap"; sourceTree = "<group>"; };
+		5CEEA1B8C8435AFD3C1EE2668444C043 /* AukAutoscroll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukAutoscroll.swift; path = Auk/AukAutoscroll.swift; sourceTree = "<group>"; };
+		5EA6486D235803B54C2905E6ACD54067 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627FB3FF9434C7DD8B2999F0B51D3036 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		6370AD5D063C7E38FA53AD603AE1A3A7 /* Pods-FloodExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorer.debug.xcconfig"; sourceTree = "<group>"; };
+		64AE3D97C6DB9C6A5D984A8897AB37D2 /* AukScrollTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukScrollTo.swift; path = Auk/AukScrollTo.swift; sourceTree = "<group>"; };
+		65D82DEAEBD375F9D38F0BDE66EA6580 /* AZDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		65FF92904226F7578DD6BBD410365128 /* Pods-FloodExplorerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68810D6AD5A17FBCA0302EE8C869548C /* XLPagerTabStrip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.xcconfig; sourceTree = "<group>"; };
+		692636991E446FCA17A571CD6503FF90 /* MoaImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaImageDownloader.swift; path = Moa/MoaImageDownloader.swift; sourceTree = "<group>"; };
+		6A8D6A690C753A7BD40815B7C2824B1A /* MoaSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSettings.swift; path = Moa/MoaSettings.swift; sourceTree = "<group>"; };
+		6B1F202CFAC685625F52CAAB06413BC6 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
+		6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C08621C5DDE7025BA1F06A46C951F8E /* Pods-FloodExplorerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorerTests-resources.sh"; sourceTree = "<group>"; };
+		6FF904452A74224C1190EA209D4FF7D7 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		722530F4B0CD9EF7FAEB6AC0B42AD31F /* Pods_FloodExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		729951B9B58B1C6BCB37F67F668AE989 /* Moa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moa.swift; path = Moa/Moa.swift; sourceTree = "<group>"; };
+		72C748EA8996EFCB33155E1399395C16 /* moa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = moa.xcconfig; sourceTree = "<group>"; };
+		7426F821642B246AD3A7494678F01515 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		76048D4BF29A79FC1F6492A8422607CE /* Pods-FloodExplorerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79572CF2016FCB20BFC036D26F6E4FEA /* Auk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Auk-dummy.m"; sourceTree = "<group>"; };
+		7CD727BD08F58407D2FC6A2CC57A057F /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
+		7CE6E3557EB8C8F641DFBFA62CF5614F /* Pods-FloodExplorer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FloodExplorer.modulemap"; sourceTree = "<group>"; };
+		7CF5284D7B534DD1EE825E214470B789 /* MoaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaError.swift; path = Moa/Http/MoaError.swift; sourceTree = "<group>"; };
+		81096CFE70A41CB3E21449D535C532B0 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		818988D3E652BB7258665AF01635973D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834C832680491A91D5EFF57C74660B4F /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		8782E9A4AFDAA63D8199E25DBCD5A58C /* AZDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AEA1304E75463A9F249BB5E54D1B89 /* Pods-FloodExplorer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloodExplorer-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A84B9BF14123CF205435AE498C32457 /* MoaSimulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSimulator.swift; path = Moa/Simulator/MoaSimulator.swift; sourceTree = "<group>"; };
+		8BCC86470ECCBC2B21F8779729B32C78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E7C4A43353671A4C30D90BD67B8FD3A /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Auk/Utils/RightToLeft.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BE9987F32F8CE1BB2CFBCB4F09FCCF /* iiAutolayoutConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iiAutolayoutConstraints.swift; path = Auk/Utils/iiAutolayoutConstraints.swift; sourceTree = "<group>"; };
+		9449E317066B40603B6C775CB9728E85 /* AukScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukScrollViewDelegate.swift; path = Auk/AukScrollViewDelegate.swift; sourceTree = "<group>"; };
+		979E5910756839ECC45A242FEA4CDF61 /* iiQ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iiQ.swift; path = Auk/Utils/iiQ.swift; sourceTree = "<group>"; };
+		97D503ABFC99120E40D84565EC3491C5 /* Pods-FloodExplorerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorerTests-frameworks.sh"; sourceTree = "<group>"; };
+		97F6B9975937839A7F4CDFDC7CF2ABB7 /* Pods-FloodExplorer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorer-resources.sh"; sourceTree = "<group>"; };
+		9C9903C56F26D548EC6C0F52CBD0DB90 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		9D6AE0C8A667E257E8DD74240ADE67EF /* MoaHttpImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaHttpImage.swift; path = Moa/Http/MoaHttpImage.swift; sourceTree = "<group>"; };
+		9D951A5D057F1D1A4CB1A89331A065CD /* Pods-FloodExplorerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloodExplorerTests-dummy.m"; sourceTree = "<group>"; };
+		9E866A7B1870918A11E381CC9130447F /* Auk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Auk.xcconfig; sourceTree = "<group>"; };
+		9F1A09C93072E7BEE94B39B979ADADB0 /* MoaHttpImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaHttpImageDownloader.swift; path = Moa/Http/MoaHttpImageDownloader.swift; sourceTree = "<group>"; };
+		9F59745A4BC7E89E962846732C58E42A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64A7E505B58841B0D2D4AC5882762BE /* MoaTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaTime.swift; path = Moa/Utils/MoaTime.swift; sourceTree = "<group>"; };
+		A78A3D0BA6F532401F883C3EE91A1773 /* Pods-FloodExplorer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloodExplorer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A84822B0011F3EBC69253155C1C4BD70 /* Pods-FloodExplorer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorer-frameworks.sh"; sourceTree = "<group>"; };
+		ACEFD5D03FFF9E586BC42C3A9585E3E6 /* moa-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "moa-dummy.m"; sourceTree = "<group>"; };
+		AD4499D58E1B93BD192EF6FB501C6657 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		AD5532AC94AA7AB46DEDDDEDD85F6FDE /* MoaLoggerText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaLoggerText.swift; path = Moa/Logger/MoaLoggerText.swift; sourceTree = "<group>"; };
+		B0B4DEF64390F496154216AB526C11AD /* AZDropdownMenuConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuConfig.swift; path = Pod/Classes/AZDropdownMenuConfig.swift; sourceTree = "<group>"; };
+		B1EF63229E95EA49786828D5AAE6C8CB /* AutoCancellingTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoCancellingTimer.swift; path = Auk/Utils/AutoCancellingTimer.swift; sourceTree = "<group>"; };
+		B386EC97FAA9C6615A0AFB0651401172 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		B50F06F37B03118A04C22386E1ACD2BD /* Pods-FloodExplorerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloodExplorerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B63460F19BDB6232ECB407F4E1457CA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB4629AD69AD1D8FC9AE766062518494 /* Pods-FloodExplorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorerTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB4C82A78AF585B49F2D28115E88FD63 /* MoaSettingsCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSettingsCache.swift; path = Moa/MoaSettingsCache.swift; sourceTree = "<group>"; };
+		BBAC85ECFE2FFBF7B939EC307CE56EF1 /* Pods-FloodExplorerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloodExplorerUITests-umbrella.h"; sourceTree = "<group>"; };
+		BC4EBC9E622B8A786FF430B658FA3EE3 /* Pods-FloodExplorerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorerUITests-resources.sh"; sourceTree = "<group>"; };
+		BCEC9AA93000194371FA8A7D77C51925 /* moa.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = moa.modulemap; sourceTree = "<group>"; };
+		BD082959C85E2F87B9F826EF1F64C953 /* AukSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukSettings.swift; path = Auk/AukSettings.swift; sourceTree = "<group>"; };
+		BD175B50A9A72812F52AC8D8A538867B /* AZDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AZDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		CA8BDB9FD77714B512EE4977DC684EDE /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
+		CB8FCFD5ED318B9C4771A4D4EBCB08DE /* AukRemoteImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukRemoteImage.swift; path = Auk/AukRemoteImage.swift; sourceTree = "<group>"; };
+		CDDA8FEFA6CFDB6978B5B37374011116 /* AZDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AZDropdownMenu.modulemap; sourceTree = "<group>"; };
+		CE5571F79E4340642029578B7C20E251 /* MoaLoggerCallback.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaLoggerCallback.swift; path = Moa/Logger/MoaLoggerCallback.swift; sourceTree = "<group>"; };
+		D39EF71A83F26262468529E232A7D2F1 /* AZDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenu.swift; path = Pod/Classes/AZDropdownMenu.swift; sourceTree = "<group>"; };
+		D4C822BD96EDC77F839B22D21BBE1137 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6849F857CF3D8B3FCEB54932EB34E19 /* AukPageVisibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukPageVisibility.swift; path = Auk/AukPageVisibility.swift; sourceTree = "<group>"; };
+		DFEC2D39C9F2FD27CC1FF562D0AD0AAD /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		E029EFC353C67D376BEF75924192D925 /* Pods-FloodExplorerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloodExplorerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E0ECB42248B782B5C28ADA731D02BBFD /* AZDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZDropdownMenu.xcconfig; sourceTree = "<group>"; };
+		E1936CBF85A58CFB07F168C9DB88E5F2 /* Pods-FloodExplorerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloodExplorerTests-umbrella.h"; sourceTree = "<group>"; };
+		E25374B73BE615CB0EB4B4D48C66A73E /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
+		E327068E7440ED69A2E1F9516E4262B6 /* Pods-FloodExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorer.release.xcconfig"; sourceTree = "<group>"; };
+		E99CE240B5C16AB77372EC2417A8FCDC /* Pods-FloodExplorer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloodExplorer-dummy.m"; sourceTree = "<group>"; };
+		F5F586FC14086A08B250F33FF5633A27 /* AZDropdownMenuDefaultCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuDefaultCell.swift; path = Pod/Classes/AZDropdownMenuDefaultCell.swift; sourceTree = "<group>"; };
+		FAD9C291DFA315CA7C968F9337073AAB /* Pods-FloodExplorerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloodExplorerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB34F2BA67C58D6C3DAD21156E31D6C1 /* AukPageIndicatorContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukPageIndicatorContainer.swift; path = Auk/AukPageIndicatorContainer.swift; sourceTree = "<group>"; };
+		FCE7F3FE73039411FF802640D9D4FD57 /* Pods-FloodExplorerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloodExplorerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE95D44A5B7F8C57533E60A3831D0AB4 /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
+		FEE954C9759FD4138C0131891428EDB3 /* UIScrollView+Auk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+Auk.swift"; path = "Auk/UIScrollView+Auk.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8EDD07E4CD65FF7A99E3EC65E2F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7C1BE86B0FE3E70A72471D8ECA1B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB481CAC86FDB60D00939601AB4C790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A57444A15ABAC54615D40FF1F5B768 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFE286CB224BDDBA3D55DFCE266070C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B986BBAEDC9FC214691A0A636D6AFD3 /* Foundation.framework in Frameworks */,
+				F5B75AF02A8782D4A28F38DC15453191 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C71C72F9FF40B237BB989C35A3F0E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFE862BF9B202574B5592CE94D4114D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F5A6A148AD0D5AF75BA25080BE78F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B3ACFFEBDF6E81003F3A497514CEDA4 /* Foundation.framework in Frameworks */,
+				D0A3C69910AFADDE5E885D1CAA391E9E /* moa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D2D2D3D4D094BECFE4653DE7F13936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F580C5DCD7E7E6810286918B2244F0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7672343660D30345F493761FD7969FB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8ABFB6C9D14DFC23FDE15EFE90BB5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19621C36FD2907EBB7BED7A48C1923DF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA069D6A29AB45FA92E9ACAE0025D88 /* XLPagerTabStrip */ = {
+			isa = PBXGroup;
+			children = (
+				B386EC97FAA9C6615A0AFB0651401172 /* BarPagerTabStripViewController.swift */,
+				35D64F263D80CCFBB0E3E19D21A8DD98 /* BarView.swift */,
+				81096CFE70A41CB3E21449D535C532B0 /* BaseButtonBarPagerTabStripViewController.swift */,
+				6FF904452A74224C1190EA209D4FF7D7 /* ButtonBarPagerTabStripViewController.swift */,
+				DFEC2D39C9F2FD27CC1FF562D0AD0AAD /* ButtonBarView.swift */,
+				1BC41FF49DC9B6B5AB09FE13134B9D21 /* ButtonBarViewCell.swift */,
+				FE95D44A5B7F8C57533E60A3831D0AB4 /* ButtonCell.xib */,
+				373266E43C749F24286E1CA755007D02 /* FXPageControl.h */,
+				5858F991D40604B603F69E314EAF7010 /* FXPageControl.m */,
+				38C5EE5D368EAAEB46BE32F302CC8F2D /* IndicatorInfo.swift */,
+				627FB3FF9434C7DD8B2999F0B51D3036 /* PagerTabStripBehaviour.swift */,
+				006BDFEEC79C755E84777C3B9CD376D2 /* PagerTabStripError.swift */,
+				59708A4E990E6A01D685B4364A5210B5 /* PagerTabStripViewController.swift */,
+				CA8BDB9FD77714B512EE4977DC684EDE /* SegmentedPagerTabStripViewController.swift */,
+				7CD727BD08F58407D2FC6A2CC57A057F /* SwipeDirection.swift */,
+				AD4499D58E1B93BD192EF6FB501C6657 /* TwitterPagerTabStripViewController.swift */,
+				D4577A02C417E54A2006DC79ACC0FEF2 /* Resources */,
+				BF9DED0ED2E62ED4037A1041674266BF /* Support Files */,
+			);
+			path = XLPagerTabStrip;
+			sourceTree = "<group>";
+		};
+		11C8EEFE160E038EB9E7CCC2DB7ADC3B /* moa */ = {
+			isa = PBXGroup;
+			children = (
+				16DE4226CB987075C2F07711B6B9FF13 /* ImageView+moa.swift */,
+				729951B9B58B1C6BCB37F67F668AE989 /* Moa.swift */,
+				2ECD0897B1387E07DFD885298E9A6D2E /* MoaConsoleLogger.swift */,
+				7CF5284D7B534DD1EE825E214470B789 /* MoaError.swift */,
+				3329D3A8F691252E7D52B3EF83550412 /* MoaHttp.swift */,
+				9D6AE0C8A667E257E8DD74240ADE67EF /* MoaHttpImage.swift */,
+				9F1A09C93072E7BEE94B39B979ADADB0 /* MoaHttpImageDownloader.swift */,
+				0BFF4D0D2543270C07EFC305A1F45BD9 /* MoaHttpSession.swift */,
+				692636991E446FCA17A571CD6503FF90 /* MoaImageDownloader.swift */,
+				CE5571F79E4340642029578B7C20E251 /* MoaLoggerCallback.swift */,
+				AD5532AC94AA7AB46DEDDDEDD85F6FDE /* MoaLoggerText.swift */,
+				094B6A95E3395DD3A81D56394EDADBC1 /* MoaLogType.swift */,
+				6A8D6A690C753A7BD40815B7C2824B1A /* MoaSettings.swift */,
+				BB4C82A78AF585B49F2D28115E88FD63 /* MoaSettingsCache.swift */,
+				2A08EDBDFF021765F21EA1B9A28F0E0C /* MoaSimulatedImageDownloader.swift */,
+				8A84B9BF14123CF205435AE498C32457 /* MoaSimulator.swift */,
+				57C98451F9420A34A81A523C27DD86D0 /* MoaString.swift */,
+				A64A7E505B58841B0D2D4AC5882762BE /* MoaTime.swift */,
+				BC309B6794F3852137AB2E4326018408 /* Support Files */,
+			);
+			path = moa;
+			sourceTree = "<group>";
+		};
+		17C0F171AECEDDF05F8C1B8FCAE67EDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B18636FF4215400EF0D8E4361E31B08 /* Auk */,
+				B79B61FA5ED108FE3F551270A921143D /* AZDropdownMenu */,
+				E5E5E431A7807C2B2967D87682A3AA2B /* GoogleMaps */,
+				732EC65FC4BDC2BB1637A66A01B725FD /* GooglePlaces */,
+				11C8EEFE160E038EB9E7CCC2DB7ADC3B /* moa */,
+				0DA069D6A29AB45FA92E9ACAE0025D88 /* XLPagerTabStrip */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		313A13B0046CF41CEDA4FDC2B9100100 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB7C5C76827AE24F01BC5897CC8F6A7 /* Auk.modulemap */,
+				9E866A7B1870918A11E381CC9130447F /* Auk.xcconfig */,
+				79572CF2016FCB20BFC036D26F6E4FEA /* Auk-dummy.m */,
+				4E4CDB98577224EB7FDFC53EBED5B6C8 /* Auk-prefix.pch */,
+				0D3EFDAE6B59529E10EF326F43865DDE /* Auk-umbrella.h */,
+				818988D3E652BB7258665AF01635973D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Auk";
+			sourceTree = "<group>";
+		};
+		4AC7044B7DC72AF3856634EB53256A07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D798E2477A8C7399856E9EDDB5B95A /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		647F31FB142FDEB572F3C1E42396DABE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C56559B847BC591A86D58EB6A5F87CC /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C699FFF1BC147CE94AEF0CB9779DD65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C9903C56F26D548EC6C0F52CBD0DB90 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70E01B003BF351266F650DDD6A1FC091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3245AB91FA754597A9B1E3750040C5CB /* GoogleMaps.framework */,
+				2F73F60FDC5D5E8120FB36A83F965E89 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71129291F2D17FE7A03E012232245D6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA8FEFA6CFDB6978B5B37374011116 /* AZDropdownMenu.modulemap */,
+				E0ECB42248B782B5C28ADA731D02BBFD /* AZDropdownMenu.xcconfig */,
+				09B4DDBAAC4A91202CDD994CC61115F8 /* AZDropdownMenu-dummy.m */,
+				BD175B50A9A72812F52AC8D8A538867B /* AZDropdownMenu-prefix.pch */,
+				65D82DEAEBD375F9D38F0BDE66EA6580 /* AZDropdownMenu-umbrella.h */,
+				9F59745A4BC7E89E962846732C58E42A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AZDropdownMenu";
+			sourceTree = "<group>";
+		};
+		732EC65FC4BDC2BB1637A66A01B725FD /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				4AC7044B7DC72AF3856634EB53256A07 /* Frameworks */,
+				D8513A6659077C36A402BF21FE2E9C8E /* Resources */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		77FC1EB6DF0AF0147118EC5EA29F5B16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4402104F09A063C381BC5442EA787EA /* Pods-FloodExplorer */,
+				EC52EA5DA1D39ED876CAA1AD661616CF /* Pods-FloodExplorerTests */,
+				D2C055BE22D7643BD50B6B1E10A9AE01 /* Pods-FloodExplorerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D7BBC748EDE6C5B360DD988A8EB5A81D /* Frameworks */,
+				17C0F171AECEDDF05F8C1B8FCAE67EDA /* Pods */,
+				AFC32785A7067A383EB5257DA5C694CA /* Products */,
+				77FC1EB6DF0AF0147118EC5EA29F5B16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B18636FF4215400EF0D8E4361E31B08 /* Auk */ = {
+			isa = PBXGroup;
+			children = (
+				2C9C314A15E09D42C9FE0B88F1529934 /* Auk.swift */,
+				5CEEA1B8C8435AFD3C1EE2668444C043 /* AukAutoscroll.swift */,
+				2BAF3C8767BE25FA037DF814AC67112F /* AukPage.swift */,
+				FB34F2BA67C58D6C3DAD21156E31D6C1 /* AukPageIndicatorContainer.swift */,
+				D6849F857CF3D8B3FCEB54932EB34E19 /* AukPageVisibility.swift */,
+				CB8FCFD5ED318B9C4771A4D4EBCB08DE /* AukRemoteImage.swift */,
+				64AE3D97C6DB9C6A5D984A8897AB37D2 /* AukScrollTo.swift */,
+				5A7E797B276391A8C4CD90F7E385C8DE /* AukScrollViewContent.swift */,
+				9449E317066B40603B6C775CB9728E85 /* AukScrollViewDelegate.swift */,
+				BD082959C85E2F87B9F826EF1F64C953 /* AukSettings.swift */,
+				B1EF63229E95EA49786828D5AAE6C8CB /* AutoCancellingTimer.swift */,
+				2C897158C0B0DEF711DAAECE047B6DE1 /* iiAnimator.swift */,
+				93BE9987F32F8CE1BB2CFBCB4F09FCCF /* iiAutolayoutConstraints.swift */,
+				979E5910756839ECC45A242FEA4CDF61 /* iiQ.swift */,
+				8E7C4A43353671A4C30D90BD67B8FD3A /* RightToLeft.swift */,
+				FEE954C9759FD4138C0131891428EDB3 /* UIScrollView+Auk.swift */,
+				313A13B0046CF41CEDA4FDC2B9100100 /* Support Files */,
+			);
+			path = Auk;
+			sourceTree = "<group>";
+		};
+		AFC32785A7067A383EB5257DA5C694CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F59E297114AB043BB391A7A9B8ACDC /* Auk.framework */,
+				8782E9A4AFDAA63D8199E25DBCD5A58C /* AZDropdownMenu.framework */,
+				2C4C0BF90DE2004A9A58EB8CC56D2B4E /* moa.framework */,
+				722530F4B0CD9EF7FAEB6AC0B42AD31F /* Pods_FloodExplorer.framework */,
+				41FC9A821EA7FD7EDAF88AC0B0B62E2F /* Pods_FloodExplorerTests.framework */,
+				2B37555BDD4E7D668A5020000B4CD1CC /* Pods_FloodExplorerUITests.framework */,
+				6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */,
+				1A71D9014DB9DE5D3FC8BC23BF4CB714 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B79B61FA5ED108FE3F551270A921143D /* AZDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D39EF71A83F26262468529E232A7D2F1 /* AZDropdownMenu.swift */,
+				1A1C460B2C5F093C3CF62C2DA02C99C0 /* AZDropdownMenuBaseCell.swift */,
+				B0B4DEF64390F496154216AB526C11AD /* AZDropdownMenuConfig.swift */,
+				F5F586FC14086A08B250F33FF5633A27 /* AZDropdownMenuDefaultCell.swift */,
+				71129291F2D17FE7A03E012232245D6E /* Support Files */,
+			);
+			path = AZDropdownMenu;
+			sourceTree = "<group>";
+		};
+		B79EFD2D353061BF586AA86D8C4A1B1A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				647F31FB142FDEB572F3C1E42396DABE /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BC309B6794F3852137AB2E4326018408 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EA6486D235803B54C2905E6ACD54067 /* Info.plist */,
+				BCEC9AA93000194371FA8A7D77C51925 /* moa.modulemap */,
+				72C748EA8996EFCB33155E1399395C16 /* moa.xcconfig */,
+				ACEFD5D03FFF9E586BC42C3A9585E3E6 /* moa-dummy.m */,
+				4C37F8F7BE611010088ADFA077D99B54 /* moa-prefix.pch */,
+				25D6BA558465DBB2E7EECC0195BC0B60 /* moa-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/moa";
+			sourceTree = "<group>";
+		};
+		BF9DED0ED2E62ED4037A1041674266BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BCC86470ECCBC2B21F8779729B32C78 /* Info.plist */,
+				834C832680491A91D5EFF57C74660B4F /* ResourceBundle-XLPagerTabStrip-Info.plist */,
+				E25374B73BE615CB0EB4B4D48C66A73E /* XLPagerTabStrip.modulemap */,
+				68810D6AD5A17FBCA0302EE8C869548C /* XLPagerTabStrip.xcconfig */,
+				2EEE1B2758574827DD182BE12CF887B6 /* XLPagerTabStrip-dummy.m */,
+				2F9F1CBBDD7546764DF8B8B23FF5FD41 /* XLPagerTabStrip-prefix.pch */,
+				6B1F202CFAC685625F52CAAB06413BC6 /* XLPagerTabStrip-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XLPagerTabStrip";
+			sourceTree = "<group>";
+		};
+		C4402104F09A063C381BC5442EA787EA /* Pods-FloodExplorer */ = {
+			isa = PBXGroup;
+			children = (
+				B63460F19BDB6232ECB407F4E1457CA9 /* Info.plist */,
+				7CE6E3557EB8C8F641DFBFA62CF5614F /* Pods-FloodExplorer.modulemap */,
+				A78A3D0BA6F532401F883C3EE91A1773 /* Pods-FloodExplorer-acknowledgements.markdown */,
+				89AEA1304E75463A9F249BB5E54D1B89 /* Pods-FloodExplorer-acknowledgements.plist */,
+				E99CE240B5C16AB77372EC2417A8FCDC /* Pods-FloodExplorer-dummy.m */,
+				A84822B0011F3EBC69253155C1C4BD70 /* Pods-FloodExplorer-frameworks.sh */,
+				97F6B9975937839A7F4CDFDC7CF2ABB7 /* Pods-FloodExplorer-resources.sh */,
+				43C761F8E31A8DA935B51992F1D61C45 /* Pods-FloodExplorer-umbrella.h */,
+				6370AD5D063C7E38FA53AD603AE1A3A7 /* Pods-FloodExplorer.debug.xcconfig */,
+				E327068E7440ED69A2E1F9516E4262B6 /* Pods-FloodExplorer.release.xcconfig */,
+			);
+			name = "Pods-FloodExplorer";
+			path = "Target Support Files/Pods-FloodExplorer";
+			sourceTree = "<group>";
+		};
+		D2C055BE22D7643BD50B6B1E10A9AE01 /* Pods-FloodExplorerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				261DC0D1C7668DA3E749C3DDAF60380A /* Info.plist */,
+				5C307D528E8526C0B95493C44EC6E19F /* Pods-FloodExplorerUITests.modulemap */,
+				E029EFC353C67D376BEF75924192D925 /* Pods-FloodExplorerUITests-acknowledgements.markdown */,
+				B50F06F37B03118A04C22386E1ACD2BD /* Pods-FloodExplorerUITests-acknowledgements.plist */,
+				45B11C36A47C191F9FBE07110BC2ABF5 /* Pods-FloodExplorerUITests-dummy.m */,
+				39D844B0CA3F760364EF81A8CBAF4A0A /* Pods-FloodExplorerUITests-frameworks.sh */,
+				BC4EBC9E622B8A786FF430B658FA3EE3 /* Pods-FloodExplorerUITests-resources.sh */,
+				BBAC85ECFE2FFBF7B939EC307CE56EF1 /* Pods-FloodExplorerUITests-umbrella.h */,
+				65FF92904226F7578DD6BBD410365128 /* Pods-FloodExplorerUITests.debug.xcconfig */,
+				76048D4BF29A79FC1F6492A8422607CE /* Pods-FloodExplorerUITests.release.xcconfig */,
+			);
+			name = "Pods-FloodExplorerUITests";
+			path = "Target Support Files/Pods-FloodExplorerUITests";
+			sourceTree = "<group>";
+		};
+		D4577A02C417E54A2006DC79ACC0FEF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D7BBC748EDE6C5B360DD988A8EB5A81D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C9C6B2D9D53EA390D0B5738329F9C54 /* moa.framework */,
+				DE2FCC91AFEA5233FAD9DF24985FEECA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8513A6659077C36A402BF21FE2E9C8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33B3E980616981EBB2EFDB30512A0341 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE2FCC91AFEA5233FAD9DF24985FEECA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				04037466CBCEAB539112765747196024 /* Foundation.framework */,
+				7426F821642B246AD3A7494678F01515 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E5E5E431A7807C2B2967D87682A3AA2B /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				B79EFD2D353061BF586AA86D8C4A1B1A /* Base */,
+				FEEF6251AC8CF8D6AE7F817DCD87A8A7 /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		EC52EA5DA1D39ED876CAA1AD661616CF /* Pods-FloodExplorerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4C822BD96EDC77F839B22D21BBE1137 /* Info.plist */,
+				53596759FA28C4906775FBA7218762A8 /* Pods-FloodExplorerTests.modulemap */,
+				FAD9C291DFA315CA7C968F9337073AAB /* Pods-FloodExplorerTests-acknowledgements.markdown */,
+				FCE7F3FE73039411FF802640D9D4FD57 /* Pods-FloodExplorerTests-acknowledgements.plist */,
+				9D951A5D057F1D1A4CB1A89331A065CD /* Pods-FloodExplorerTests-dummy.m */,
+				97D503ABFC99120E40D84565EC3491C5 /* Pods-FloodExplorerTests-frameworks.sh */,
+				6C08621C5DDE7025BA1F06A46C951F8E /* Pods-FloodExplorerTests-resources.sh */,
+				E1936CBF85A58CFB07F168C9DB88E5F2 /* Pods-FloodExplorerTests-umbrella.h */,
+				2DECE14B54222F7416BD469043096B05 /* Pods-FloodExplorerTests.debug.xcconfig */,
+				BB4629AD69AD1D8FC9AE766062518494 /* Pods-FloodExplorerTests.release.xcconfig */,
+			);
+			name = "Pods-FloodExplorerTests";
+			path = "Target Support Files/Pods-FloodExplorerTests";
+			sourceTree = "<group>";
+		};
+		FEEF6251AC8CF8D6AE7F817DCD87A8A7 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				70E01B003BF351266F650DDD6A1FC091 /* Frameworks */,
+				6C699FFF1BC147CE94AEF0CB9779DD65 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		494C95F3160AF5846B7B565087899C12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DEEE15F4977D1D987A3A8FE684F532 /* Pods-FloodExplorerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A0D46E6D8FAB863E57C914E7A12660 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C7A7D3061653368C2D77F41CD62C59 /* AZDropdownMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7B12228EC6C4935E811231A336EFDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD66FD147B2EC5F5F2B4A1E644DC54B9 /* moa-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D131D3DC1A82C3D45E82C7AD28520823 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DC4EE0AB5C7F6D393E5A4911861305 /* Pods-FloodExplorerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB487894E8608637A36C6F4EB4193028 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48168278278387C430FEE40E91BDE5A1 /* Auk-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E111BD3A4E3C4D935D11425C85F99F91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682784EF23D932C8334E4E5DBCBC06A8 /* FXPageControl.h in Headers */,
+				59928EFDB71CD303BAD1AC420B40F3D4 /* XLPagerTabStrip-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC27E8010043D51341759226719F3570 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8596460AADCC27B2BB671B7D11C50B /* Pods-FloodExplorer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4500DE545E75E9ED99E96DFD33207214 /* Build configuration list for PBXNativeTarget "AZDropdownMenu" */;
+			buildPhases = (
+				8DDCA6BDD10C63D2AF31C44FFD13E6C9 /* Sources */,
+				2BB481CAC86FDB60D00939601AB4C790 /* Frameworks */,
+				A9A0D46E6D8FAB863E57C914E7A12660 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZDropdownMenu;
+			productName = AZDropdownMenu;
+			productReference = 8782E9A4AFDAA63D8199E25DBCD5A58C /* AZDropdownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0E7B9D6361B6C967E9DCAB95AFCCBAB9 /* Pods-FloodExplorer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B0A3C7B9AB83799663261F49266F85E /* Build configuration list for PBXNativeTarget "Pods-FloodExplorer" */;
+			buildPhases = (
+				34340F502BBDB1702B81B46DDDE7A709 /* Sources */,
+				B0C71C72F9FF40B237BB989C35A3F0E3 /* Frameworks */,
+				FC27E8010043D51341759226719F3570 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C71B6A22EA780300092BAE1956B94ED /* PBXTargetDependency */,
+				193BF50A00D7FE084B87579D3D0233A7 /* PBXTargetDependency */,
+				2C93F9E733A04C2306872346C7F93E10 /* PBXTargetDependency */,
+				73E5F3A4A79973BBC49A6C938C8C816D /* PBXTargetDependency */,
+			);
+			name = "Pods-FloodExplorer";
+			productName = "Pods-FloodExplorer";
+			productReference = 722530F4B0CD9EF7FAEB6AC0B42AD31F /* Pods_FloodExplorer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		14465FC28324FBB065DDCCBD77FA238C /* moa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E8EB334145F65E23F047DBC1F3C7C2 /* Build configuration list for PBXNativeTarget "moa" */;
+			buildPhases = (
+				82893A785B4761018E960A15A2FA364E /* Sources */,
+				2B8EDD07E4CD65FF7A99E3EC65E2F63A /* Frameworks */,
+				BB7B12228EC6C4935E811231A336EFDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moa;
+			productName = moa;
+			productReference = 2C4C0BF90DE2004A9A58EB8CC56D2B4E /* moa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3CA940476FF4990AAB402642FEA22337 /* Pods-FloodExplorerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EE916E39C9B90EBA5B2246DB8111300 /* Build configuration list for PBXNativeTarget "Pods-FloodExplorerUITests" */;
+			buildPhases = (
+				1CC96289492D0B763F241C8A864BE23C /* Sources */,
+				F8ABFB6C9D14DFC23FDE15EFE90BB5C8 /* Frameworks */,
+				D131D3DC1A82C3D45E82C7AD28520823 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FloodExplorerUITests";
+			productName = "Pods-FloodExplorerUITests";
+			productReference = 2B37555BDD4E7D668A5020000B4CD1CC /* Pods_FloodExplorerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		678FFE1AE22A155AC8D1CB338B10DDBF /* XLPagerTabStrip-XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24C2EBBAD64B9ABF3144D8840AC2CD49 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
+			buildPhases = (
+				42547BD8E30803D8C0662A66603457FA /* Sources */,
+				F1D2D2D3D4D094BECFE4653DE7F13936 /* Frameworks */,
+				A705C874739373576E838C2935266EF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			productName = "XLPagerTabStrip-XLPagerTabStrip";
+			productReference = 6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6FDCE894BBA08962E65AA56876363B48 /* Pods-FloodExplorerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D16BDBF5B5E0FF5B1C4FCDC365A214F /* Build configuration list for PBXNativeTarget "Pods-FloodExplorerTests" */;
+			buildPhases = (
+				29C364B28B323381039E67CCD99E3BD8 /* Sources */,
+				F580C5DCD7E7E6810286918B2244F0D7 /* Frameworks */,
+				494C95F3160AF5846B7B565087899C12 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FloodExplorerTests";
+			productName = "Pods-FloodExplorerTests";
+			productReference = 41FC9A821EA7FD7EDAF88AC0B0B62E2F /* Pods_FloodExplorerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		993AF34958BF25A68AD8F7D91645DA95 /* XLPagerTabStrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC36CB6AB5BEC356107C602FFB3F08B6 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildPhases = (
+				AB60004C5ADEA479CCD34E3BD47B1331 /* Sources */,
+				ADFE286CB224BDDBA3D55DFCE266070C /* Frameworks */,
+				044BAA9E99683CB78C720FC586F5875C /* Resources */,
+				E111BD3A4E3C4D935D11425C85F99F91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77FD61BCC2A34107CF90252A3C064A1A /* PBXTargetDependency */,
+			);
+			name = XLPagerTabStrip;
+			productName = XLPagerTabStrip;
+			productReference = 1A71D9014DB9DE5D3FC8BC23BF4CB714 /* XLPagerTabStrip.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6DEFA22CCEEB5F1F1D43D157996301F /* Auk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB5776389EC3A50AC50DAD1EF21D4EE /* Build configuration list for PBXNativeTarget "Auk" */;
+			buildPhases = (
+				DED7D45DF407A8ACDCB743730D6DBC29 /* Sources */,
+				D6F5A6A148AD0D5AF75BA25080BE78F6 /* Frameworks */,
+				DB487894E8608637A36C6F4EB4193028 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6CE98F80E178DB6A6A3C1E2A002DB6 /* PBXTargetDependency */,
+			);
+			name = Auk;
+			productName = Auk;
+			productReference = 30F59E297114AB043BB391A7A9B8ACDC /* Auk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AFC32785A7067A383EB5257DA5C694CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6DEFA22CCEEB5F1F1D43D157996301F /* Auk */,
+				0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */,
+				14465FC28324FBB065DDCCBD77FA238C /* moa */,
+				0E7B9D6361B6C967E9DCAB95AFCCBAB9 /* Pods-FloodExplorer */,
+				6FDCE894BBA08962E65AA56876363B48 /* Pods-FloodExplorerTests */,
+				3CA940476FF4990AAB402642FEA22337 /* Pods-FloodExplorerUITests */,
+				993AF34958BF25A68AD8F7D91645DA95 /* XLPagerTabStrip */,
+				678FFE1AE22A155AC8D1CB338B10DDBF /* XLPagerTabStrip-XLPagerTabStrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044BAA9E99683CB78C720FC586F5875C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F8E18B2C59831C6513AF15F2B2FA73 /* XLPagerTabStrip.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A705C874739373576E838C2935266EF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B22D00D434AB30514E9E25281675A78 /* ButtonCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CC96289492D0B763F241C8A864BE23C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3443EDF265BE208EEA36E3C8FC1635CB /* Pods-FloodExplorerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29C364B28B323381039E67CCD99E3BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C246B2FC0B311E8B3BF785D7180B7C /* Pods-FloodExplorerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34340F502BBDB1702B81B46DDDE7A709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38911A16CF06B5D7202FEE55AEEB763D /* Pods-FloodExplorer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42547BD8E30803D8C0662A66603457FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82893A785B4761018E960A15A2FA364E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CABC1DA3B04B6D1ED6CF9B2C359B2FB3 /* ImageView+moa.swift in Sources */,
+				5CB0662C59E0DFAD96E4696C95A7DC22 /* moa-dummy.m in Sources */,
+				8651B36C8CEA02C87E5ADB6527CFF6DC /* Moa.swift in Sources */,
+				9066E8A96A5F394E13263E35D7E71682 /* MoaConsoleLogger.swift in Sources */,
+				016B2285B482ABB510D977B8B77C8ACD /* MoaError.swift in Sources */,
+				45F8324701DF28695E73B51C603EC8C3 /* MoaHttp.swift in Sources */,
+				CF073F64E79C82B4C5022A468A05708B /* MoaHttpImage.swift in Sources */,
+				972E1F4EF9E72DBBBF8B472BF3CBBA6C /* MoaHttpImageDownloader.swift in Sources */,
+				46A3F2144C9ED5D5521A8450D008BCAB /* MoaHttpSession.swift in Sources */,
+				D47D9709045D349269715B62F35074C0 /* MoaImageDownloader.swift in Sources */,
+				1BA0C33E36AF40A934164B6B0E7888AF /* MoaLoggerCallback.swift in Sources */,
+				BE71C42F9EB42FD55384FA5E2263A8A6 /* MoaLoggerText.swift in Sources */,
+				502F0A81671E6E51AC0B3E97D050373C /* MoaLogType.swift in Sources */,
+				F88C252DB8862FE3F505FC4DFBB278B6 /* MoaSettings.swift in Sources */,
+				0574C3A8610ED87352F345568A491CCE /* MoaSettingsCache.swift in Sources */,
+				0BD90B3519864CC1528827B9BBD192B9 /* MoaSimulatedImageDownloader.swift in Sources */,
+				263A76599DCD536938BA1FF76F39CAD3 /* MoaSimulator.swift in Sources */,
+				80416B866F1B5E9E0CB258A426DC4531 /* MoaString.swift in Sources */,
+				C6512F6D54C5A2C3B432123306B39D4B /* MoaTime.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDCA6BDD10C63D2AF31C44FFD13E6C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FAD0169B7AE5C0F9436CBC515360850 /* AZDropdownMenu-dummy.m in Sources */,
+				4C2B7867E6398FC7A627CC9C98653A3F /* AZDropdownMenu.swift in Sources */,
+				8CD9ADE006CA83465345059BE0FDD746 /* AZDropdownMenuBaseCell.swift in Sources */,
+				18B65A8C875558134D503B1A95AB6322 /* AZDropdownMenuConfig.swift in Sources */,
+				1D673463A985686A447362511BA5ABB4 /* AZDropdownMenuDefaultCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB60004C5ADEA479CCD34E3BD47B1331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E9C1ABB5C2DA11D0183F684123C3DFA /* BarPagerTabStripViewController.swift in Sources */,
+				5C900E884443318394B9AEAF3B5A9CAF /* BarView.swift in Sources */,
+				20F9F238CBD6A7BAB2F060285ECB44BB /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
+				0934BCAE0A9931F02A14AECB7C60A7EC /* ButtonBarPagerTabStripViewController.swift in Sources */,
+				F4BDCA688CBD7C951043382EE6849C23 /* ButtonBarView.swift in Sources */,
+				EBE962FACA9D7BFDA6ED03F8E747D23A /* ButtonBarViewCell.swift in Sources */,
+				265D25E1BF582E772C45538ED8FF2E76 /* ButtonCell.xib in Sources */,
+				8AD91560B81B37F3E38980405F56F7E5 /* FXPageControl.m in Sources */,
+				A6AA17292351463ED328FABD995BD1AC /* IndicatorInfo.swift in Sources */,
+				2DF2832ABDF86E3EBFDA5DC600B73EDD /* PagerTabStripBehaviour.swift in Sources */,
+				666365F30DA91B3DD3D44B1E188C0980 /* PagerTabStripError.swift in Sources */,
+				5BE8EE1EE47C516E081EABBE707A2D66 /* PagerTabStripViewController.swift in Sources */,
+				715F1B58DCE6604D04C754F1ABD067DF /* SegmentedPagerTabStripViewController.swift in Sources */,
+				78D35F34CE6D866C5F7F79D791C90518 /* SwipeDirection.swift in Sources */,
+				E2905598AA172C6C3988771E55B61190 /* TwitterPagerTabStripViewController.swift in Sources */,
+				239D86B18C65F0DE9C8BB309938ED1BC /* XLPagerTabStrip-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED7D45DF407A8ACDCB743730D6DBC29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD44C46EF7BE53E026C336068422F29 /* Auk-dummy.m in Sources */,
+				BEC5D0AA48D3886B9DB3685E5AF2B8C8 /* Auk.swift in Sources */,
+				6B526C3D8C2FCF43A106CCED2781A6B4 /* AukAutoscroll.swift in Sources */,
+				551925015C793AB11E1690F5E24787BE /* AukPage.swift in Sources */,
+				4CC3093EC174BABA66C8D44F61B9EFE0 /* AukPageIndicatorContainer.swift in Sources */,
+				175E54AC52903B08232C089EE3DA3C44 /* AukPageVisibility.swift in Sources */,
+				6BB64CBDEFAC780319345B345C7D3272 /* AukRemoteImage.swift in Sources */,
+				F2137ACF86D032A996B98516633E99B0 /* AukScrollTo.swift in Sources */,
+				202BC63ACF5AD66FB9BDF7FA7D0FB44E /* AukScrollViewContent.swift in Sources */,
+				A9C5C20E502B8FB004054BB89ACF0C3B /* AukScrollViewDelegate.swift in Sources */,
+				82B317529F3071599ABA7D40D0E033AA /* AukSettings.swift in Sources */,
+				069B6ECF246B1B710B460777335838E2 /* AutoCancellingTimer.swift in Sources */,
+				B864043E075D2B191F2AF12170DAE35C /* iiAnimator.swift in Sources */,
+				795CED4D22BF5524C83716EE49C5AA48 /* iiAutolayoutConstraints.swift in Sources */,
+				F0E7BD3AAAB129599972507007B8F485 /* iiQ.swift in Sources */,
+				85B3A3C44717269AD6F0EC20A4682E36 /* RightToLeft.swift in Sources */,
+				A5B331C0F2216C1B5392517C024248D7 /* UIScrollView+Auk.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193BF50A00D7FE084B87579D3D0233A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Auk;
+			target = C6DEFA22CCEEB5F1F1D43D157996301F /* Auk */;
+			targetProxy = 15ABC5DF41F1220FE5610D67C72AD102 /* PBXContainerItemProxy */;
+		};
+		2C93F9E733A04C2306872346C7F93E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XLPagerTabStrip;
+			target = 993AF34958BF25A68AD8F7D91645DA95 /* XLPagerTabStrip */;
+			targetProxy = 918F6C023FE46BA6268C2D52C8CBA067 /* PBXContainerItemProxy */;
+		};
+		73E5F3A4A79973BBC49A6C938C8C816D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = moa;
+			target = 14465FC28324FBB065DDCCBD77FA238C /* moa */;
+			targetProxy = F68BB892AE742BBF391A7660F61FC503 /* PBXContainerItemProxy */;
+		};
+		77FD61BCC2A34107CF90252A3C064A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XLPagerTabStrip-XLPagerTabStrip";
+			target = 678FFE1AE22A155AC8D1CB338B10DDBF /* XLPagerTabStrip-XLPagerTabStrip */;
+			targetProxy = 5DE871773A1D84927DAAF46CBF9C1831 /* PBXContainerItemProxy */;
+		};
+		7C71B6A22EA780300092BAE1956B94ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AZDropdownMenu;
+			target = 0BA6525597C1B817693051CCA494E16A /* AZDropdownMenu */;
+			targetProxy = 3F00F8A7506F1C8B8DAD0165ED211EF2 /* PBXContainerItemProxy */;
+		};
+		CD6CE98F80E178DB6A6A3C1E2A002DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = moa;
+			target = 14465FC28324FBB065DDCCBD77FA238C /* moa */;
+			targetProxy = 3A413D4F429E7C6B94852757DCE69C33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A2BB972893076BCC67F653574A64CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FF92904226F7578DD6BBD410365128 /* Pods-FloodExplorerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloodExplorerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloodExplorerUITests/Pods-FloodExplorerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloodExplorerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		151A384849E812BD9FF3BB93DE7D1A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C748EA8996EFCB33155E1399395C16 /* moa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/moa/moa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/moa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/moa/moa.modulemap";
+				PRODUCT_NAME = moa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BDC263F0E3450E64CD6F6D6CF19DF1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68810D6AD5A17FBCA0302EE8C869548C /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1DA0CAAC4C5270A02BC68A96DD9C746A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E866A7B1870918A11E381CC9130447F /* Auk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Auk/Auk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Auk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Auk/Auk.modulemap";
+				PRODUCT_NAME = Auk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		352AEC6E21C114138ADD71CDEFCF91C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		467BD92844CB5273CFED4BD59CF3FBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6370AD5D063C7E38FA53AD603AE1A3A7 /* Pods-FloodExplorer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloodExplorer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloodExplorer/Pods-FloodExplorer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloodExplorer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54EA9E8244C9F3CB65B8B182671446BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4629AD69AD1D8FC9AE766062518494 /* Pods-FloodExplorerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloodExplorerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloodExplorerTests/Pods-FloodExplorerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloodExplorerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57EC7A42E666045F72814232D5F78D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		62313465CE387DC76C0867BA9D8457B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68810D6AD5A17FBCA0302EE8C869548C /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B742EA8FBD545EC1F4EF93734F429B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0ECB42248B782B5C28ADA731D02BBFD /* AZDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
+				PRODUCT_NAME = AZDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D3F380BD8422D8EB993C3EB1B29B1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E327068E7440ED69A2E1F9516E4262B6 /* Pods-FloodExplorer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloodExplorer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloodExplorer/Pods-FloodExplorer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloodExplorer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		846707A556166F038FFFCBAED2DEE1B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C748EA8996EFCB33155E1399395C16 /* moa.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/moa/moa-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/moa/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/moa/moa.modulemap";
+				PRODUCT_NAME = moa;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		881A13A2D2D53F1A88E185F5AEB703B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0ECB42248B782B5C28ADA731D02BBFD /* AZDropdownMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AZDropdownMenu/AZDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AZDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AZDropdownMenu/AZDropdownMenu.modulemap";
+				PRODUCT_NAME = AZDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8989E4AB9B77A5AB65FB29AE7547C0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DECE14B54222F7416BD469043096B05 /* Pods-FloodExplorerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloodExplorerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloodExplorerTests/Pods-FloodExplorerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloodExplorerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE23800E0EA49912831E79872E3C08C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76048D4BF29A79FC1F6492A8422607CE /* Pods-FloodExplorerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FloodExplorerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FloodExplorerUITests/Pods-FloodExplorerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FloodExplorerUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5588AB6068461252C6B141309FCD15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68810D6AD5A17FBCA0302EE8C869548C /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5DBC52C4DF6F1C45FF547C098CFCB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E866A7B1870918A11E381CC9130447F /* Auk.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Auk/Auk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Auk/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Auk/Auk.modulemap";
+				PRODUCT_NAME = Auk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE2E2B2010C253B2CC81EEFEE7AC7A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68810D6AD5A17FBCA0302EE8C869548C /* XLPagerTabStrip.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
+				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XLPagerTabStrip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EE916E39C9B90EBA5B2246DB8111300 /* Build configuration list for PBXNativeTarget "Pods-FloodExplorerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2BB972893076BCC67F653574A64CD7 /* Debug */,
+				AE23800E0EA49912831E79872E3C08C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24C2EBBAD64B9ABF3144D8840AC2CD49 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BDC263F0E3450E64CD6F6D6CF19DF1B /* Debug */,
+				FE2E2B2010C253B2CC81EEFEE7AC7A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57EC7A42E666045F72814232D5F78D99 /* Debug */,
+				352AEC6E21C114138ADD71CDEFCF91C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D16BDBF5B5E0FF5B1C4FCDC365A214F /* Build configuration list for PBXNativeTarget "Pods-FloodExplorerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8989E4AB9B77A5AB65FB29AE7547C0A /* Debug */,
+				54EA9E8244C9F3CB65B8B182671446BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4500DE545E75E9ED99E96DFD33207214 /* Build configuration list for PBXNativeTarget "AZDropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B742EA8FBD545EC1F4EF93734F429B0 /* Debug */,
+				881A13A2D2D53F1A88E185F5AEB703B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B0A3C7B9AB83799663261F49266F85E /* Build configuration list for PBXNativeTarget "Pods-FloodExplorer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467BD92844CB5273CFED4BD59CF3FBCF /* Debug */,
+				6D3F380BD8422D8EB993C3EB1B29B1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E8EB334145F65E23F047DBC1F3C7C2 /* Build configuration list for PBXNativeTarget "moa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846707A556166F038FFFCBAED2DEE1B8 /* Debug */,
+				151A384849E812BD9FF3BB93DE7D1A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC36CB6AB5BEC356107C602FFB3F08B6 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5588AB6068461252C6B141309FCD15C /* Debug */,
+				62313465CE387DC76C0867BA9D8457B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB5776389EC3A50AC50DAD1EF21D4EE /* Build configuration list for PBXNativeTarget "Auk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA0CAAC4C5270A02BC68A96DD9C746A /* Debug */,
+				F5DBC52C4DF6F1C45FF547C098CFCB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

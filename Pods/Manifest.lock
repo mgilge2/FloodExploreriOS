@@ -1,0 +1,33 @@
+PODS:
+  - Auk (8.0.0):
+    - moa
+  - AZDropdownMenu (1.1.3)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
+  - moa (9.0.0)
+  - XLPagerTabStrip (7.0.0)
+
+DEPENDENCIES:
+  - Auk (~> 8.0)
+  - AZDropdownMenu
+  - GoogleMaps
+  - GooglePlaces
+  - moa (~> 9.0)
+  - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Auk: c5f416304eb499ccbf2b7b157f4c5882b582852a
+  AZDropdownMenu: 5aa9d598d0c8aa36ca51a7302e79b98d544d5554
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
+  moa: 00300af76bac9be82fe4f0e30055cd6532156c8d
+  XLPagerTabStrip: 9be80a66c6b7d60306b2c0a6004965016d68f813
+
+PODFILE CHECKSUM: bde6a13c8ac9dfd12a20244a30a67ab5d28ebd9f
+
+COCOAPODS: 1.3.1
