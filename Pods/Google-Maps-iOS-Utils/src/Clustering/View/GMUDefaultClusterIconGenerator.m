@@ -32,13 +32,14 @@ static NSArray<UIColor *> *kGMUBucketBackgroundColors;
   NSCache *_iconCache;
   NSArray<NSNumber *> *_buckets;
   NSArray<UIImage *> *_backgroundImages;
+  NSArray<UIImage *> *_backgroundColors;
 }
 
 + (void)initialize {
   kGMUBucketBackgroundColors = @[
-    UIColorFromHEX(0x0099cc),
-    UIColorFromHEX(0x669900),
-    UIColorFromHEX(0xff8800),
+    UIColorFromHEX(0x7CFC00),
+    UIColorFromHEX(0x32CD32),
+    UIColorFromHEX(0x00BFFF),
     UIColorFromHEX(0xcc0000),
     UIColorFromHEX(0x9933cc),
   ];
@@ -47,7 +48,8 @@ static NSArray<UIColor *> *kGMUBucketBackgroundColors;
 - (instancetype)init {
   if ((self = [super init]) != nil) {
     _iconCache = [[NSCache alloc] init];
-    _buckets = @[ @10, @50, @100, @200, @1000 ];
+    _buckets = @[ @5, @10, @20, @50, @1000 ];
+    _backgroundColors = [kGMUBucketBackgroundColors copy];
   }
   return self;
 }
@@ -75,7 +77,7 @@ static NSArray<UIColor *> *kGMUBucketBackgroundColors;
                          (unsigned long) buckets.count, (unsigned long) backgroundColors.count];
     }
 
-    kGMUBucketBackgroundColors = [backgroundColors copy];
+    _backgroundColors = [backgroundColors copy];
   }
   return self;
 }
@@ -111,7 +113,7 @@ static NSArray<UIColor *> *kGMUBucketBackgroundColors;
   if (size < _buckets[0].unsignedLongValue) {
     text = [NSString stringWithFormat:@"%ld", (unsigned long)size];
   } else {
-    text = [NSString stringWithFormat:@"%ld+", _buckets[bucketIndex].unsignedLongValue];
+      text = [NSString stringWithFormat:@"%ld+", _buckets[bucketIndex].unsignedLongValue];
   }
   if (_backgroundImages != nil) {
     UIImage *image = _backgroundImages[bucketIndex];
@@ -189,8 +191,8 @@ static NSArray<UIColor *> *kGMUBucketBackgroundColors;
   UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0.0f);
   CGContextRef ctx = UIGraphicsGetCurrentContext();
   CGContextSaveGState(ctx);
-  bucketIndex = MIN(bucketIndex, kGMUBucketBackgroundColors.count - 1);
-  UIColor *backColor = kGMUBucketBackgroundColors[bucketIndex];
+  bucketIndex = MIN(bucketIndex, _backgroundColors.count - 1);
+  UIColor *backColor = _backgroundColors[bucketIndex];
   CGContextSetFillColorWithColor(ctx, backColor.CGColor);
   CGContextFillEllipseInRect(ctx, rect);
   CGContextRestoreGState(ctx);
