@@ -1,50 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MapInfoWindow" customModule="FloodExplorer" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="294" height="82"/>
-            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+        <view contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="iN0-l3-epB" customClass="MapInfoWindow" customModule="FloodExplorer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="294" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xss-eZ-7Mm">
-                    <rect key="frame" x="66" y="31" width="162" height="20.5"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xss-eZ-7Mm">
+                    <rect key="frame" x="60" y="53" width="174" height="0.0"/>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgr-fG-wCT">
-                    <rect key="frame" x="126" y="41" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a Info Window" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PdP-y5-Vof">
+                    <rect key="frame" x="77" y="11" width="211" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a Info Window" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdP-y5-Vof">
-                    <rect key="frame" x="66" y="12" width="162" height="20.5"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rockhammer" translatesAutoresizingMaskIntoConstraints="NO" id="cn0-Aq-zB8">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="76"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="76" id="CB2-xl-a7Y"/>
+                        <constraint firstAttribute="width" constant="75" id="V6i-4b-U5W"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSK-ph-gAo">
+                    <rect key="frame" x="0.0" y="76" width="147" height="30"/>
+                    <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="147" id="nkM-Gu-M0h"/>
+                    </constraints>
+                    <state key="normal" title="Go to Story">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXb-7D-x7I">
+                    <rect key="frame" x="147" y="76" width="147" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Get Directions">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hx1-Kx-fUC">
+                    <rect key="frame" x="77" y="40" width="211" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
-                <constraint firstItem="xss-eZ-7Mm" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="nlX-QN-ZGz"/>
-                <constraint firstItem="xss-eZ-7Mm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yzh-uR-e6n"/>
+                <constraint firstItem="xss-eZ-7Mm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="04f-Iu-5ug"/>
+                <constraint firstAttribute="trailing" secondItem="PdP-y5-Vof" secondAttribute="trailing" constant="6" id="42i-cu-ss7"/>
+                <constraint firstItem="xss-eZ-7Mm" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7ZX-Km-rnJ"/>
+                <constraint firstItem="Hx1-Kx-fUC" firstAttribute="top" secondItem="PdP-y5-Vof" secondAttribute="bottom" constant="8" symbolic="YES" id="8aZ-gD-fiL"/>
+                <constraint firstItem="PdP-y5-Vof" firstAttribute="leading" secondItem="Hx1-Kx-fUC" secondAttribute="leading" id="Brg-xJ-NCu"/>
+                <constraint firstItem="MSK-ph-gAo" firstAttribute="baseline" secondItem="SXb-7D-x7I" secondAttribute="baseline" id="KjO-nX-SpL"/>
+                <constraint firstItem="PdP-y5-Vof" firstAttribute="trailing" secondItem="Hx1-Kx-fUC" secondAttribute="trailing" id="OvR-PV-ahf"/>
+                <constraint firstItem="Hx1-Kx-fUC" firstAttribute="top" secondItem="xss-eZ-7Mm" secondAttribute="bottom" constant="-13" id="PD8-jD-eBA"/>
+                <constraint firstItem="xss-eZ-7Mm" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="PDq-1Y-KEa"/>
+                <constraint firstItem="PdP-y5-Vof" firstAttribute="leading" secondItem="cn0-Aq-zB8" secondAttribute="trailing" constant="2" id="Wby-Od-EDg"/>
+                <constraint firstItem="cn0-Aq-zB8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="bAT-VP-axv"/>
+                <constraint firstItem="MSK-ph-gAo" firstAttribute="top" secondItem="Hx1-Kx-fUC" secondAttribute="bottom" constant="15" id="bZu-Fq-iwf"/>
+                <constraint firstItem="SXb-7D-x7I" firstAttribute="leading" secondItem="MSK-ph-gAo" secondAttribute="trailing" id="bgF-6q-Yj1"/>
+                <constraint firstItem="MSK-ph-gAo" firstAttribute="top" secondItem="cn0-Aq-zB8" secondAttribute="bottom" id="iHW-9m-lfo"/>
+                <constraint firstItem="cn0-Aq-zB8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kC6-gU-Ay3"/>
+                <constraint firstItem="cn0-Aq-zB8" firstAttribute="leading" secondItem="MSK-ph-gAo" secondAttribute="leading" id="xgr-Ep-YTV"/>
+                <constraint firstAttribute="trailing" secondItem="SXb-7D-x7I" secondAttribute="trailing" id="y7p-5Z-EWP"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="EIp-BW-N6j"/>
             <connections>
-                <outlet property="authorLbl" destination="bgr-fG-wCT" id="4TH-bk-M9V"/>
-                <outlet property="titleInfo" destination="PdP-y5-Vof" id="t8T-S0-lii"/>
-                <outlet property="titleLabel" destination="PdP-y5-Vof" id="fp0-dE-rse"/>
+                <outlet property="authorLabel" destination="Hx1-Kx-fUC" id="Ugo-v1-pHW"/>
+                <outlet property="directionButton" destination="SXb-7D-x7I" id="3MA-qx-vEN"/>
+                <outlet property="imageView" destination="cn0-Aq-zB8" id="rdu-5E-yhZ"/>
+                <outlet property="storyButton" destination="MSK-ph-gAo" id="A5f-mA-faZ"/>
+                <outlet property="titleLabel" destination="PdP-y5-Vof" id="mEJ-fo-b0L"/>
             </connections>
-            <point key="canvasLocation" x="-62" y="-69"/>
+            <point key="canvasLocation" x="-271" y="-220"/>
         </view>
     </objects>
+    <resources>
+        <image name="rockhammer" width="36" height="36"/>
+    </resources>
 </document>

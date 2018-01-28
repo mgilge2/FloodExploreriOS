@@ -192,9 +192,9 @@ class MapViewController: UIViewController, GMUClusterManagerDelegate, GMSMapView
         infoWindow.center = mapView.projection.point(for: location)
         infoWindow.center.y = infoWindow.center.y - sizeForOffset(view: infoWindow)
         
-        infoWindow.titleInfo.text = customMarker.name
+        infoWindow.titleLabel.text = customMarker.name
         infoWindow.authorLabel.text = customMarker.author
-        infoWindow.buttonAction.addTarget(self, action: #selector(goToStoryClicked(_:)), for: .touchUpInside)
+        infoWindow.storyButton.addTarget(self, action: #selector(goToStoryClicked(_:)), for: .touchUpInside)
         infoWindow.directionButton.addTarget(self, action: #selector(getDirectionsClicked(_:)), for: .touchUpInside)
         infoWindow.imageView.moa.onSuccess = { image in
             return image

@@ -67,6 +67,7 @@
 		A5B331C0F2216C1B5392517C024248D7 /* UIScrollView+Auk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE954C9759FD4138C0131891428EDB3 /* UIScrollView+Auk.swift */; };
 		A6AA17292351463ED328FABD995BD1AC /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C5EE5D368EAAEB46BE32F302CC8F2D /* IndicatorInfo.swift */; };
 		A9C5C20E502B8FB004054BB89ACF0C3B /* AukScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9449E317066B40603B6C775CB9728E85 /* AukScrollViewDelegate.swift */; };
+		B496AA2BEAB7574ACB2EBEEBAFD0896D /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7F48746D6F51421337ABF0EDB6E3A903 /* XLPagerTabStrip.bundle */; };
 		B864043E075D2B191F2AF12170DAE35C /* iiAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C897158C0B0DEF711DAAECE047B6DE1 /* iiAnimator.swift */; };
 		BE71C42F9EB42FD55384FA5E2263A8A6 /* MoaLoggerText.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5532AC94AA7AB46DEDDDEDD85F6FDE /* MoaLoggerText.swift */; };
 		BEC5D0AA48D3886B9DB3685E5AF2B8C8 /* Auk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C314A15E09D42C9FE0B88F1529934 /* Auk.swift */; };
@@ -83,7 +84,6 @@
 		F2137ACF86D032A996B98516633E99B0 /* AukScrollTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AE3D97C6DB9C6A5D984A8897AB37D2 /* AukScrollTo.swift */; };
 		F4BDCA688CBD7C951043382EE6849C23 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC2D39C9F2FD27CC1FF562D0AD0AAD /* ButtonBarView.swift */; };
 		F5B75AF02A8782D4A28F38DC15453191 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7426F821642B246AD3A7494678F01515 /* UIKit.framework */; };
-		F7F8E18B2C59831C6513AF15F2B2FA73 /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */; };
 		F88C252DB8862FE3F505FC4DFBB278B6 /* MoaSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8D6A690C753A7BD40815B7C2824B1A /* MoaSettings.swift */; };
 		F9C246B2FC0B311E8B3BF785D7180B7C /* Pods-FloodExplorerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D951A5D057F1D1A4CB1A89331A065CD /* Pods-FloodExplorerTests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -142,14 +142,11 @@
 		0D3EFDAE6B59529E10EF326F43865DDE /* Auk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Auk-umbrella.h"; sourceTree = "<group>"; };
 		16DE4226CB987075C2F07711B6B9FF13 /* ImageView+moa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+moa.swift"; path = "Moa/ImageView+moa.swift"; sourceTree = "<group>"; };
 		1A1C460B2C5F093C3CF62C2DA02C99C0 /* AZDropdownMenuBaseCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuBaseCell.swift; path = Pod/Classes/AZDropdownMenuBaseCell.swift; sourceTree = "<group>"; };
-		1A71D9014DB9DE5D3FC8BC23BF4CB714 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC41FF49DC9B6B5AB09FE13134B9D21 /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
 		25D6BA558465DBB2E7EECC0195BC0B60 /* moa-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "moa-umbrella.h"; sourceTree = "<group>"; };
 		261DC0D1C7668DA3E749C3DDAF60380A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A08EDBDFF021765F21EA1B9A28F0E0C /* MoaSimulatedImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSimulatedImageDownloader.swift; path = Moa/Simulator/MoaSimulatedImageDownloader.swift; sourceTree = "<group>"; };
-		2B37555BDD4E7D668A5020000B4CD1CC /* Pods_FloodExplorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BAF3C8767BE25FA037DF814AC67112F /* AukPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukPage.swift; path = Auk/AukPage.swift; sourceTree = "<group>"; };
-		2C4C0BF90DE2004A9A58EB8CC56D2B4E /* moa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = moa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C56559B847BC591A86D58EB6A5F87CC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
 		2C897158C0B0DEF711DAAECE047B6DE1 /* iiAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iiAnimator.swift; path = Auk/Utils/iiAnimator.swift; sourceTree = "<group>"; };
 		2C9C314A15E09D42C9FE0B88F1529934 /* Auk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auk.swift; path = Auk/Auk.swift; sourceTree = "<group>"; };
@@ -158,7 +155,7 @@
 		2EEE1B2758574827DD182BE12CF887B6 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
 		2F73F60FDC5D5E8120FB36A83F965E89 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
 		2F9F1CBBDD7546764DF8B8B23FF5FD41 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
-		30F59E297114AB043BB391A7A9B8ACDC /* Auk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Auk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3052A848ABD636D3E9D702488BAEF4A4 /* Auk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Auk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3245AB91FA754597A9B1E3750040C5CB /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
 		3329D3A8F691252E7D52B3EF83550412 /* MoaHttp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaHttp.swift; path = Moa/Http/MoaHttp.swift; sourceTree = "<group>"; };
 		33B3E980616981EBB2EFDB30512A0341 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
@@ -168,7 +165,6 @@
 		38C5EE5D368EAAEB46BE32F302CC8F2D /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
 		39D844B0CA3F760364EF81A8CBAF4A0A /* Pods-FloodExplorerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		3C9C6B2D9D53EA390D0B5738329F9C54 /* moa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = moa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		41FC9A821EA7FD7EDAF88AC0B0B62E2F /* Pods_FloodExplorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C761F8E31A8DA935B51992F1D61C45 /* Pods-FloodExplorer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloodExplorer-umbrella.h"; sourceTree = "<group>"; };
 		45B11C36A47C191F9FBE07110BC2ABF5 /* Pods-FloodExplorerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloodExplorerUITests-dummy.m"; sourceTree = "<group>"; };
 		4AB7C5C76827AE24F01BC5897CC8F6A7 /* Auk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Auk.modulemap; sourceTree = "<group>"; };
@@ -191,10 +187,8 @@
 		692636991E446FCA17A571CD6503FF90 /* MoaImageDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaImageDownloader.swift; path = Moa/MoaImageDownloader.swift; sourceTree = "<group>"; };
 		6A8D6A690C753A7BD40815B7C2824B1A /* MoaSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSettings.swift; path = Moa/MoaSettings.swift; sourceTree = "<group>"; };
 		6B1F202CFAC685625F52CAAB06413BC6 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
-		6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C08621C5DDE7025BA1F06A46C951F8E /* Pods-FloodExplorerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorerTests-resources.sh"; sourceTree = "<group>"; };
 		6FF904452A74224C1190EA209D4FF7D7 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		722530F4B0CD9EF7FAEB6AC0B42AD31F /* Pods_FloodExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		729951B9B58B1C6BCB37F67F668AE989 /* Moa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Moa.swift; path = Moa/Moa.swift; sourceTree = "<group>"; };
 		72C748EA8996EFCB33155E1399395C16 /* moa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = moa.xcconfig; sourceTree = "<group>"; };
 		7426F821642B246AD3A7494678F01515 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -203,20 +197,23 @@
 		7CD727BD08F58407D2FC6A2CC57A057F /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
 		7CE6E3557EB8C8F641DFBFA62CF5614F /* Pods-FloodExplorer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FloodExplorer.modulemap"; sourceTree = "<group>"; };
 		7CF5284D7B534DD1EE825E214470B789 /* MoaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaError.swift; path = Moa/Http/MoaError.swift; sourceTree = "<group>"; };
+		7F48746D6F51421337ABF0EDB6E3A903 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		81096CFE70A41CB3E21449D535C532B0 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		818988D3E652BB7258665AF01635973D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834C832680491A91D5EFF57C74660B4F /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
-		8782E9A4AFDAA63D8199E25DBCD5A58C /* AZDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AEA1304E75463A9F249BB5E54D1B89 /* Pods-FloodExplorer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloodExplorer-acknowledgements.plist"; sourceTree = "<group>"; };
 		8A84B9BF14123CF205435AE498C32457 /* MoaSimulator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSimulator.swift; path = Moa/Simulator/MoaSimulator.swift; sourceTree = "<group>"; };
 		8BCC86470ECCBC2B21F8779729B32C78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E71E53B9BC480FC537520F391995994 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E7C4A43353671A4C30D90BD67B8FD3A /* RightToLeft.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RightToLeft.swift; path = Auk/Utils/RightToLeft.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93BE9987F32F8CE1BB2CFBCB4F09FCCF /* iiAutolayoutConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iiAutolayoutConstraints.swift; path = Auk/Utils/iiAutolayoutConstraints.swift; sourceTree = "<group>"; };
 		9449E317066B40603B6C775CB9728E85 /* AukScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukScrollViewDelegate.swift; path = Auk/AukScrollViewDelegate.swift; sourceTree = "<group>"; };
+		9598DC102877F824098435D521C17FCF /* Pods_FloodExplorerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		979E5910756839ECC45A242FEA4CDF61 /* iiQ.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iiQ.swift; path = Auk/Utils/iiQ.swift; sourceTree = "<group>"; };
 		97D503ABFC99120E40D84565EC3491C5 /* Pods-FloodExplorerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorerTests-frameworks.sh"; sourceTree = "<group>"; };
 		97F6B9975937839A7F4CDFDC7CF2ABB7 /* Pods-FloodExplorer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FloodExplorer-resources.sh"; sourceTree = "<group>"; };
+		9836AE3DBFBF9155789BE66EE7B547AE /* moa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = moa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9903C56F26D548EC6C0F52CBD0DB90 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		9D6AE0C8A667E257E8DD74240ADE67EF /* MoaHttpImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaHttpImage.swift; path = Moa/Http/MoaHttpImage.swift; sourceTree = "<group>"; };
 		9D951A5D057F1D1A4CB1A89331A065CD /* Pods-FloodExplorerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloodExplorerTests-dummy.m"; sourceTree = "<group>"; };
@@ -234,6 +231,7 @@
 		B386EC97FAA9C6615A0AFB0651401172 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		B50F06F37B03118A04C22386E1ACD2BD /* Pods-FloodExplorerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloodExplorerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B63460F19BDB6232ECB407F4E1457CA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9C9E4E201AB22AD0C4FAE2DADDDAA24 /* Pods_FloodExplorerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4629AD69AD1D8FC9AE766062518494 /* Pods-FloodExplorerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorerTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB4C82A78AF585B49F2D28115E88FD63 /* MoaSettingsCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoaSettingsCache.swift; path = Moa/MoaSettingsCache.swift; sourceTree = "<group>"; };
 		BBAC85ECFE2FFBF7B939EC307CE56EF1 /* Pods-FloodExplorerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FloodExplorerUITests-umbrella.h"; sourceTree = "<group>"; };
@@ -248,6 +246,7 @@
 		D39EF71A83F26262468529E232A7D2F1 /* AZDropdownMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenu.swift; path = Pod/Classes/AZDropdownMenu.swift; sourceTree = "<group>"; };
 		D4C822BD96EDC77F839B22D21BBE1137 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6849F857CF3D8B3FCEB54932EB34E19 /* AukPageVisibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukPageVisibility.swift; path = Auk/AukPageVisibility.swift; sourceTree = "<group>"; };
+		DE9EF10C030BBAD67114E7DDECE96FEC /* Pods_FloodExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloodExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEC2D39C9F2FD27CC1FF562D0AD0AAD /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
 		E029EFC353C67D376BEF75924192D925 /* Pods-FloodExplorerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloodExplorerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E0ECB42248B782B5C28ADA731D02BBFD /* AZDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AZDropdownMenu.xcconfig; sourceTree = "<group>"; };
@@ -256,6 +255,7 @@
 		E327068E7440ED69A2E1F9516E4262B6 /* Pods-FloodExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FloodExplorer.release.xcconfig"; sourceTree = "<group>"; };
 		E99CE240B5C16AB77372EC2417A8FCDC /* Pods-FloodExplorer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FloodExplorer-dummy.m"; sourceTree = "<group>"; };
 		F5F586FC14086A08B250F33FF5633A27 /* AZDropdownMenuDefaultCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AZDropdownMenuDefaultCell.swift; path = Pod/Classes/AZDropdownMenuDefaultCell.swift; sourceTree = "<group>"; };
+		F9518C283D6DCFBB8F02A757FD345D0B /* AZDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AZDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD9C291DFA315CA7C968F9337073AAB /* Pods-FloodExplorerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FloodExplorerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FB34F2BA67C58D6C3DAD21156E31D6C1 /* AukPageIndicatorContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AukPageIndicatorContainer.swift; path = Auk/AukPageIndicatorContainer.swift; sourceTree = "<group>"; };
 		FCE7F3FE73039411FF802640D9D4FD57 /* Pods-FloodExplorerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FloodExplorerTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -396,6 +396,21 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		1C9C217A7A5D03F0FF6C0DFC2385F030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3052A848ABD636D3E9D702488BAEF4A4 /* Auk.framework */,
+				F9518C283D6DCFBB8F02A757FD345D0B /* AZDropdownMenu.framework */,
+				9836AE3DBFBF9155789BE66EE7B547AE /* moa.framework */,
+				DE9EF10C030BBAD67114E7DDECE96FEC /* Pods_FloodExplorer.framework */,
+				9598DC102877F824098435D521C17FCF /* Pods_FloodExplorerTests.framework */,
+				B9C9E4E201AB22AD0C4FAE2DADDDAA24 /* Pods_FloodExplorerUITests.framework */,
+				7F48746D6F51421337ABF0EDB6E3A903 /* XLPagerTabStrip.bundle */,
+				8E71E53B9BC480FC537520F391995994 /* XLPagerTabStrip.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		313A13B0046CF41CEDA4FDC2B9100100 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -482,7 +497,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D7BBC748EDE6C5B360DD988A8EB5A81D /* Frameworks */,
 				17C0F171AECEDDF05F8C1B8FCAE67EDA /* Pods */,
-				AFC32785A7067A383EB5257DA5C694CA /* Products */,
+				1C9C217A7A5D03F0FF6C0DFC2385F030 /* Products */,
 				77FC1EB6DF0AF0147118EC5EA29F5B16 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -509,21 +524,6 @@
 				313A13B0046CF41CEDA4FDC2B9100100 /* Support Files */,
 			);
 			path = Auk;
-			sourceTree = "<group>";
-		};
-		AFC32785A7067A383EB5257DA5C694CA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				30F59E297114AB043BB391A7A9B8ACDC /* Auk.framework */,
-				8782E9A4AFDAA63D8199E25DBCD5A58C /* AZDropdownMenu.framework */,
-				2C4C0BF90DE2004A9A58EB8CC56D2B4E /* moa.framework */,
-				722530F4B0CD9EF7FAEB6AC0B42AD31F /* Pods_FloodExplorer.framework */,
-				41FC9A821EA7FD7EDAF88AC0B0B62E2F /* Pods_FloodExplorerTests.framework */,
-				2B37555BDD4E7D668A5020000B4CD1CC /* Pods_FloodExplorerUITests.framework */,
-				6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */,
-				1A71D9014DB9DE5D3FC8BC23BF4CB714 /* XLPagerTabStrip.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		B79B61FA5ED108FE3F551270A921143D /* AZDropdownMenu */ = {
@@ -757,7 +757,7 @@
 			);
 			name = AZDropdownMenu;
 			productName = AZDropdownMenu;
-			productReference = 8782E9A4AFDAA63D8199E25DBCD5A58C /* AZDropdownMenu.framework */;
+			productReference = F9518C283D6DCFBB8F02A757FD345D0B /* AZDropdownMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0E7B9D6361B6C967E9DCAB95AFCCBAB9 /* Pods-FloodExplorer */ = {
@@ -778,7 +778,7 @@
 			);
 			name = "Pods-FloodExplorer";
 			productName = "Pods-FloodExplorer";
-			productReference = 722530F4B0CD9EF7FAEB6AC0B42AD31F /* Pods_FloodExplorer.framework */;
+			productReference = DE9EF10C030BBAD67114E7DDECE96FEC /* Pods_FloodExplorer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		14465FC28324FBB065DDCCBD77FA238C /* moa */ = {
@@ -795,7 +795,7 @@
 			);
 			name = moa;
 			productName = moa;
-			productReference = 2C4C0BF90DE2004A9A58EB8CC56D2B4E /* moa.framework */;
+			productReference = 9836AE3DBFBF9155789BE66EE7B547AE /* moa.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3CA940476FF4990AAB402642FEA22337 /* Pods-FloodExplorerUITests */ = {
@@ -812,7 +812,7 @@
 			);
 			name = "Pods-FloodExplorerUITests";
 			productName = "Pods-FloodExplorerUITests";
-			productReference = 2B37555BDD4E7D668A5020000B4CD1CC /* Pods_FloodExplorerUITests.framework */;
+			productReference = B9C9E4E201AB22AD0C4FAE2DADDDAA24 /* Pods_FloodExplorerUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		678FFE1AE22A155AC8D1CB338B10DDBF /* XLPagerTabStrip-XLPagerTabStrip */ = {
@@ -829,7 +829,7 @@
 			);
 			name = "XLPagerTabStrip-XLPagerTabStrip";
 			productName = "XLPagerTabStrip-XLPagerTabStrip";
-			productReference = 6B5D2FFDB94D5E86E3633F976E2B9DF2 /* XLPagerTabStrip.bundle */;
+			productReference = 7F48746D6F51421337ABF0EDB6E3A903 /* XLPagerTabStrip.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		6FDCE894BBA08962E65AA56876363B48 /* Pods-FloodExplorerTests */ = {
@@ -846,7 +846,7 @@
 			);
 			name = "Pods-FloodExplorerTests";
 			productName = "Pods-FloodExplorerTests";
-			productReference = 41FC9A821EA7FD7EDAF88AC0B0B62E2F /* Pods_FloodExplorerTests.framework */;
+			productReference = 9598DC102877F824098435D521C17FCF /* Pods_FloodExplorerTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		993AF34958BF25A68AD8F7D91645DA95 /* XLPagerTabStrip */ = {
@@ -865,7 +865,7 @@
 			);
 			name = XLPagerTabStrip;
 			productName = XLPagerTabStrip;
-			productReference = 1A71D9014DB9DE5D3FC8BC23BF4CB714 /* XLPagerTabStrip.framework */;
+			productReference = 8E71E53B9BC480FC537520F391995994 /* XLPagerTabStrip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C6DEFA22CCEEB5F1F1D43D157996301F /* Auk */ = {
@@ -883,7 +883,7 @@
 			);
 			name = Auk;
 			productName = Auk;
-			productReference = 30F59E297114AB043BB391A7A9B8ACDC /* Auk.framework */;
+			productReference = 3052A848ABD636D3E9D702488BAEF4A4 /* Auk.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -903,7 +903,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AFC32785A7067A383EB5257DA5C694CA /* Products */;
+			productRefGroup = 1C9C217A7A5D03F0FF6C0DFC2385F030 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -924,7 +924,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F8E18B2C59831C6513AF15F2B2FA73 /* XLPagerTabStrip.bundle in Resources */,
+				B496AA2BEAB7574ACB2EBEEBAFD0896D /* XLPagerTabStrip.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,6 @@ import GoogleMaps
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    var OmekaDataItems = [CustomMapMarker]()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool{
@@ -22,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         GMSServices.provideAPIKey("AIzaSyD6uHBjvgtRd4WirRHJGFyLZgYk9Okzo6g")
         
         
-        //OmekaDataItems = OmekaCollection.shared().OmekaDataItems
         
         return true
     }
